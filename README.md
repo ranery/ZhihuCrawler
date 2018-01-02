@@ -12,6 +12,10 @@
 * Selenium : python library that can simulate browser
 * PhantomJS: path should be changed in the code 'URL.py' and 'crawl_question.py'
 
+## Slide
+
+* [Slide is Here!](./presentation/presentation.pdf)
+
 ## Top Design
 
 ![](./presentation/Pictures/模块关系.png)
@@ -35,6 +39,12 @@
 ![](./presentation/Pictures/question.png)
 
 ![](./presentation/Pictures/answer.png)
+
+## Team member
+
+* Haoran You
+* Zhangfan Li
+* Jincheng Guo
 
 ## Usage
 
