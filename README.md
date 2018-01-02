@@ -24,15 +24,11 @@
 
 ![](./presentation/Pictures/爬虫运行框图.png)
 
-### GUI
-
-![](./presentation/Pictures/GUI界面.png)
-
 ## Result
 
 ### login
 
-![](./presentation/Pictures/login.png)
+![](./presentation/Pictures/login.PNG)
 
 ### .json
 
