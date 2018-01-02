@@ -1,0 +1,2 @@
+{"question_id": "60413957", "question_text": "机器学习中的数字识别，一开始是把样本已知的数字转化成什么形式让计算机能识别，能否详细一点解答？", "question_title": "机器学习数字识别？", "question_commet": "​添加评论", "answer_number": "1 个回答", "question_followers": "5", "brower_number": "228"}
+{"answer_author": "知乎用户", "answer_id": 175782723, "answer_text": "谢邀。一张图片就是一个二维矩阵，每一个元素就是图片中一个点的像素值呀。以矩阵为输入，输出就是0至9的数字，建立模型呀。", "answer_votes": "0", "answer_comment": "​2 条评论"}

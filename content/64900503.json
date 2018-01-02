@@ -1,0 +1,4 @@
+{"question_id": "64900503", "question_text": "我不懂机器学习这个领域。业余会点Python和cpp。我一直纳闷现在大火的“机器学习”“人工智能”为什么都流行用py实现？python的运行效率不是很低吗？", "question_title": "python 机器学习不会很慢吗？", "question_commet": "​添加评论", "answer_number": "3 个回答", "question_followers": "4", "brower_number": "26"}
+{"answer_author": "jerrylv", "answer_id": 287446096, "answer_text": "开发效率和运行效率是两回事，用python开发，再调用C++来运行", "answer_votes": "0", "answer_comment": "​添加评论"}
+{"answer_author": "郭彤", "answer_id": 287399194, "answer_text": "python机器学习开发用到的库底层基本都是cpp实现的吧，所以在数据量不是很大的前提下还是可以接受的", "answer_votes": "0", "answer_comment": "​添加评论"}
+{"answer_author": "Aeps", "answer_id": 286691364, "answer_text": "运行效率低是低，但那几毫秒差距，人咋感觉。再而且硬件早晚不是问题。再而且python开发效率高，通俗易懂。喜欢运行效率高，大可以学汇编或者机器语言，但为啥没多大有人学，晦涩难懂，所以之后c就出来，然后python这位也是冲着c宝座而来的", "answer_votes": "0", "answer_comment": "​添加评论"}

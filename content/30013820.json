@@ -1,0 +1,4 @@
+{"question_id": "30013820", "question_text": "很想知道现在机器学习的各种算法有什么比较实际的应用.不仅仅是简单的说噢naive bayes可以用来做spam email filter 或者neural network可以用来做手写识别 更希望大家能说些业界内某些公司做的一些比较实际的项目。谢谢！", "question_title": "机器学习算法的实际应用？", "question_commet": "​添加评论", "answer_number": "3 个回答", "question_followers": "77", "brower_number": "2,046"}
+{"answer_author": "知乎用户", "answer_id": 46866437, "answer_text": "推荐系统，搜索引擎，人脸识别好多好多。几乎都有应用", "answer_votes": "0", "answer_comment": "​添加评论"}
+{"answer_author": "知乎用户", "answer_id": 46897874, "answer_text": "微软的kinect：random forests~广告点击率预估(阿里妈妈、百度等）：用到了LR、GBDT~病毒分析：SVM等分类器搜索排序：（GBDT，RankSVM，LambdaMART）中文分词：条件随机场等", "answer_votes": "5", "answer_comment": "​1 条评论"}
+{"answer_author": "知乎用户", "answer_id": 46904403, "answer_text": "中医诊断 股票预测 卦摊算卦（没开玩笑）依据历史推测未来 由整体规律推算个体 这些都没有本质不同有时理论好结果差 有时理论简单结果却不错另外正因为不确定性 这些实证科学 半经验科学都可以搞一辈子 不象精确科学那些（例如通信电子） 有些技术进步会导致个人巨大变化", "answer_votes": "0", "answer_comment": "​1 条评论"}

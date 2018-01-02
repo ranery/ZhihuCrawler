@@ -1,0 +1,5 @@
+{"question_id": "22344941", "question_text": "最近，导师想把博弈论和机器学习结合起来，看看能不能找出些问题。不是很清楚，求推荐一些综述性文章，或哪些团队在研究。", "question_title": "博弈论和机器学习？", "question_commet": "​添加评论", "answer_number": "4 个回答", "question_followers": "88", "brower_number": "3,585"}
+{"answer_author": "知乎用户", "answer_id": 165582966, "answer_text": "anniehliang.com", "answer_votes": "1", "answer_comment": "​2 条评论"}
+{"answer_author": "sonkey", "answer_id": 23026312, "answer_text": "计算广告学是研究这个的，具体是把行为经济学和机器学习建模结合起来，将参与者对模型的激励反馈考虑进来进行二次建模，MSRA的刘铁岩是研究这个的", "answer_votes": "7", "answer_comment": "​添加评论"}
+{"answer_author": "刘天浩", "answer_id": 156572001, "answer_text": "你可以去查一个叫Michcael Kearns的文章，机器学习、算法博弈论和高频金融领域的牛人，好的文章很多。", "answer_votes": "3", "answer_comment": "​添加评论"}
+{"answer_author": "知乎用户", "answer_id": 128619718, "answer_text": "最近在做一个叫Machine Learning with Strategic Consideration的项目，接触时间很短，看的我也很困惑。我觉得博弈和机器学习在经济学，和一些需要策略思考方面的领域应该有所用处。可以参考下这个链接 刘铁岩：博弈机器学习是什么？给出了一些应用，觉得说的不错。", "answer_votes": "2", "answer_comment": "​添加评论"}

@@ -1,0 +1,2 @@
+{"question_id": "51925125", "question_text": "", "question_title": "有没有机器学习入门的论文推荐？", "question_commet": "​添加评论", "answer_number": "1 个回答", "question_followers": "6", "brower_number": "548"}
+{"answer_author": "知乎用户", "answer_id": 128484457, "answer_text": "机器学习范围太广，而论文一般都是着重于某个具体方向，所以在网上找教程看更实际一些。比如Coursera上的machine learning课程。如果对数据挖掘感兴趣，也可以去kaggle，找一些入门的task做，基础教程也很丰富。等有了具体想要尝试或者深入研究的方向，再去搜索相关领域的review/survey paper就好。", "answer_votes": "1", "answer_comment": "​添加评论"}

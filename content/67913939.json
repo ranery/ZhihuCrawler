@@ -1,0 +1,4 @@
+{"question_id": "67913939", "question_text": "遇到一个这样的二分类问题，因为分类为0的数据可能多种多样，无法收集，因此训练集只有分类为1的数据，这种情况下有办法进行分类预测吗？", "question_title": "机器学习二分类问题？", "question_commet": "​添加评论", "answer_number": "3 个回答", "question_followers": "4", "brower_number": "91"}
+{"answer_author": "张旗", "answer_id": 259273535, "answer_text": "不可以的。只有一个类别的分类问题，学习出来的模型会以100%的概率预测到这一类。题主还是想想办法收集整理一些其它类别的数据吧。", "answer_votes": "1", "answer_comment": "​添加评论"}
+{"answer_author": "郭彤", "answer_id": 259879477, "answer_text": "题主没有具体地讲场景，有没有试过异常检测(one class分类)？", "answer_votes": "0", "answer_comment": "​添加评论"}
+{"answer_author": "chenxingwei", "answer_id": 258429611, "answer_text": "不能", "answer_votes": "0", "answer_comment": "​添加评论"}
