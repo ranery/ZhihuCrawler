@@ -2,18 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="def347bd-f3e4-4c71-bfbc-1ef2b0426b40" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/figure/GUI界面.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/figure/GUI设计.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/figure/HuaKe.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/figure/Myframe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/figure/Thread.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/figure/meta.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/figure/page.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/figure/structure.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/figure/主程序流程图.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/figure/模块关系.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/figure/爬取.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/figure/爬虫运行框图.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/figure/爬虫运行框图.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/figure/线程创建.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report.pdf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GUI_win.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/URL.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl_class.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl_question.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main_controler.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhihu_crawler.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/机器学习(content).txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/机器学习(topic).txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/24289445.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/25551764.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/30867508.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/32042650.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/51433384.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/61669087.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/61844203.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/64762446.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/64859225.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/65018648.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/65090899.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/68358356.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/bibfile.bib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report.aux" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report.bbl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report.blg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report.synctex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report.toc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GUI_win.py" afterPath="$PROJECT_DIR$/GUI_win.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URL.py" afterPath="$PROJECT_DIR$/URL.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ghostdriver.log" afterPath="$PROJECT_DIR$/ghostdriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhihu_crawler.py" afterPath="$PROJECT_DIR$/zhihu_crawler.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
