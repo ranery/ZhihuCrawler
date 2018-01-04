@@ -43,7 +43,7 @@ class MyFrame1 ( wx.Frame ):
 				image_file = 'bg.jpg'  
 				to_bmp_image = wx.Image(image_file, wx.BITMAP_TYPE_ANY).ConvertToBitmap()  
 				self.bitmap = wx.StaticBitmap(self, -1, to_bmp_image, (0, 0))  
-		except IOError:  
+		except IOError:
 				print ('Image file %s not found' , image_file  )
 				raise SystemExit  
 
@@ -111,12 +111,12 @@ class MyFrame1 ( wx.Frame ):
 		self.processTextCtrl = wx.TextCtrl( self.bitmap, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
 		bSizer11.Add( self.processTextCtrl, 0, wx.ALL, 5 )
 		
-		self.m_staticText5 = wx.StaticText( self.bitmap, wx.ID_ANY, u"异常个数", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText5 = wx.StaticText( self.bitmap, wx.ID_ANY, u"话题爬取页数", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText5.Wrap( -1 )
 		bSizer11.Add( self.m_staticText5, 0, wx.ALL, 5 )
 		
-		self.exceptionTextCtrl = wx.TextCtrl( self.bitmap, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
-		bSizer11.Add( self.exceptionTextCtrl, 0, wx.ALL, 5 )
+		self.topicPageTextCtrl = wx.TextCtrl( self.bitmap, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
+		bSizer11.Add( self.topicPageTextCtrl, 0, wx.ALL, 5 )
 		
 		
 		bSizer5.Add( bSizer11, 1, wx.EXPAND, 5 )
@@ -168,7 +168,11 @@ class MyFrame1 ( wx.Frame ):
 		self.pattern = self.m_comboBox1.GetString(self.m_comboBox1.GetCurrentSelection())
 		text = "-------Search URL Start!---------"
 		self.consoleText(text)
-		self.url_list = zhihu_crawler.search_URL(self.pattern, self.search_item, self.url_list)
+		if self.pattern == 'question':
+				self.url_list = zhihu_crawler.search_URL_question(self.search_item, self.url_list)
+		else:
+				num_page = int(self.topicPageTextCtrl.GetLineText(1))
+				self.url_list = zhihu_crawler.search_URL_topic(self.search_item, self.url_list, num_page)
 		self.num_of_url = len(self.url_list)
 		text = "------Search URL Completed-------"
 		self.consoleText(text)
@@ -188,9 +192,6 @@ class MyFrame1 ( wx.Frame ):
 	def processText(self):
 		processStr = str(round(self.num_of_done/self.num_of_url*100 , 3))+'%'
 		self.processTextCtrl.SetValue(processStr)
-
-	def exceptionText( self, event ):
-		event.Skip()
 
 	def consoleText( self ,text):
 		self.console_textctrl.AppendText("\n"+text)

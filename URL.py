@@ -38,12 +38,12 @@ def get_topic_id(url, url_list):
             url_list.append('https://www.zhihu.com/topic/' + topic_id)
     return url_list
 
-def get_question_id(url, url_list):
+def get_question_id(url, url_list, num_page):
     page_url = url + '/questions?page=1'
     demo = getHTMLText(page_url)
     soup = BeautifulSoup(demo, "html.parser")
     # get total page
-    num_page = 1
+    
     for link in soup.find_all('a'):
         url_temp = link.get('href')
         if '?page=' in url_temp:
@@ -62,7 +62,7 @@ def get_question_id(url, url_list):
     return url_list
 
 def get_content(url, url_list):
-    driver = webdriver.PhantomJS(executable_path=r"E:/phantomjs/bin/phantomjs.exe")
+    driver = webdriver.PhantomJS()
     driver.implicitly_wait(10)
     driver.maximize_window()
     driver.get(url)
@@ -75,7 +75,7 @@ def get_content(url, url_list):
             if demo_temp[0] == demo_temp[9]:
                 break
         driver.execute_script('window.scrollTo(0,document.body.scrollHeight)')
-        time.sleep(1)
+        time.sleep(1.5)
         demo_temp.append(driver.page_source)
 
     demo = demo_temp.pop()

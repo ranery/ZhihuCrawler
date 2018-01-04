@@ -1,0 +1,19 @@
+\contentsline {section}{\numberline {1}设计目的}{2}{section.1}
+\contentsline {section}{\numberline {2}开发平台}{2}{section.2}
+\contentsline {section}{\numberline {3}项目描述}{2}{section.3}
+\contentsline {section}{\numberline {4}软件设计}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}整体框架设计}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}爬虫控制模块}{4}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}wxpython GUI设计}{4}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}多线程实现}{6}{subsubsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3}爬虫运行模块}{9}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}知乎登陆}{9}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}网页下载\&解析}{11}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}URL爬取\&管理}{11}{subsubsection.4.3.3}
+\contentsline {subsection}{\numberline {4.4}数据输出模块}{14}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Question页面动态加载}{14}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Question网页解析}{14}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}Question数据存储}{15}{subsubsection.4.4.3}
+\contentsline {subsection}{\numberline {4.5}爬虫测试效果}{16}{subsection.4.5}
+\contentsline {section}{\numberline {5}项目分工}{16}{section.5}
+\contentsline {section}{\numberline {6}设计总结}{17}{section.6}

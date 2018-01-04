@@ -42,37 +42,38 @@ def user_login():
             login.isLogin()
 
 # define the type of data you input
-def search_URL(DType, content, url_list):
-    if DType == 'question':
-        # get a question url
-        content = {'' : content}
-        url = "https://www.zhihu.com/search?type=content&q" + urllib.parse.urlencode(content)
-        # search url in this page
-        url_list = URL.get_content(url, [])
+def search_URL_question(content, url_list):
+    # get a question url
+    content = {'' : content}
+    url = "https://www.zhihu.com/search?type=content&q" + urllib.parse.urlencode(content)
+    # search url in this page
+    url_list = URL.get_content(url, [])
+    # duplicate removal
+    url_list = list(set(url_list))
+    return url_list
     
-    elif DType == 'topic':
-        # get a topic url
-        url = "https://www.zhihu.com/search?type=topic&q=" + content
-    
-        # search url in this page
-        url_temp = URL.get_topic_id(url, [])
+def search_URL_topic(content, url_list, num_page):
+    # get a topic url
+    url = "https://www.zhihu.com/search?type=topic&q=" + content
+
+    # search url in this page
+    url_temp = URL.get_topic_id(url, [])
+    if len(url_temp) > 0:
+        url_list = url_list + url_temp
+
+    # duplicate removal
+    url_list = list(set(url_list))
+
+    # search url based on BFS
+    if len(url_list) > 0:
+        url = url_list[0]
+    while '/topic' in url and len(url_list) > 0:
+        url = url_list.pop(0)
+        url_temp = URL.get_question_id(url, [], num_page)
         if len(url_temp) > 0:
             url_list = url_list + url_temp
-    
-        # duplicate removal
-        url_list = list(set(url_list))
-    
-        # search url based on BFS
-        if len(url_list) > 0:
-            url = url_list[0]
-        while '/topic' in url and len(url_list) > 0:
-            url = url_list.pop(0)
-            url_temp = URL.get_question_id(url, [])
-            if len(url_temp) > 0:
-                url_list = url_list + url_temp
-    
-        # duplicate removal
-        url_list = list(set(url_list))
+    # duplicate removal
+    url_list = list(set(url_list))
     return url_list
 
 
